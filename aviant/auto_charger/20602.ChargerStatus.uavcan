@@ -21,7 +21,7 @@ float16 max_charge_current_a
 # In other states, the internal charges is disabled
 #
 float16 internal_charger_voltage_v # NaN if invalid
-float16 internal_charger_current_v # NaN if invalid
+float16 internal_charger_current_a # NaN if invalid
 float16 internal_charger_temperature_c # NaN if invalid
 # Fault flags from the internal charger
 uint6 INTERNAL_CHARGER_FAULT_FLAG_INPUT_VOLTAGE_PROTECTION = 0
